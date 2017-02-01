@@ -1,10 +1,10 @@
 # Python Data Science Handbook
 
-This repository contains entire [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do), in the form of (free!) Jupyter notebooks.
+This repository contains the entire [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do), in the form of (free!) Jupyter notebooks.
 
 ![cover image](notebooks/figures/PDSH-cover.png)
 
-This repository contains the full listing of IPython notebooks behind the [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do), including all text, code, and figures. The book was written and tested with Python 3.5, though older Python versions (including Python 2.7) should work in nearly all cases.
+The book was written and tested with Python 3.5, though older Python versions (including Python 2.7) should work in nearly all cases.
 
 The book introduces the core libraries essential for working with data in Python: particularly [IPython](http://ipython.org), [NumPy](http://numpy.org), [Pandas](http://pandas.pydata.org), [Matplotlib](http://matplotlib.org), [Scikit-Learn](http://scikit-learn.org), and related packages.
 Familiarity with Python as a language is assumed; if you need a quick introduction to the language itself, see the free companion project,
@@ -75,14 +75,14 @@ The following listing links to the notebooks in this repository, rendered throug
 - [Introducing Scikit-Learn](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.02-Introducing-Scikit-Learn.ipynb)
 - [Hyperparameters and Model Validation](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.03-Hyperparameters-and-Model-Validation.ipynb)
 - [Feature Engineering](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.04-Feature-Engineering.ipynb)
-- [In Depth: Naive Bayes Classification](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.05-Naive-Bayes.ipynb)
-- [In Depth: Linear Regression](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.06-Linear-Regression.ipynb)
+- [In-Depth: Naive Bayes Classification](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.05-Naive-Bayes.ipynb)
+- [In-Depth: Linear Regression](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.06-Linear-Regression.ipynb)
 - [In-Depth: Support Vector Machines](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.07-Support-Vector-Machines.ipynb)
 - [In-Depth: Decision Trees and Random Forests](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.08-Random-Forests.ipynb)
-- [In Depth: Principal Component Analysis](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.09-Principal-Component-Analysis.ipynb)
+- [In-Depth: Principal Component Analysis](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.09-Principal-Component-Analysis.ipynb)
 - [In-Depth: Manifold Learning](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.10-Manifold-Learning.ipynb)
-- [In Depth: k-Means Clustering](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.11-K-Means.ipynb)
-- [In Depth: Gaussian Mixture Models](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.12-Gaussian-Mixtures.ipynb)
+- [In-Depth: k-Means Clustering](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.11-K-Means.ipynb)
+- [In-Depth: Gaussian Mixture Models](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.12-Gaussian-Mixtures.ipynb)
 - [In-Depth: Kernel Density Estimation](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.13-Kernel-Density-Estimation.ipynb)
 - [Application: A Face Detection Pipeline](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.14-Image-Features.ipynb)
 - [Further Machine Learning Resources](http://nbviewer.jupyter.org/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.15-Learning-More.ipynb)
@@ -95,7 +95,8 @@ The following listing links to the notebooks in this repository, rendered throug
 
 The code in the book was tested with Python 3.5, though most (but not all) will also work correctly with Python 2.7 and other older Python versions.
 
-The packages required to run the code in the book are listed in [requirements.txt](requirements.txt). To install these using [conda](http://conda.pydata.org), run the following at the command-line:
+The packages I used to run the code in the book are listed in [requirements.txt](requirements.txt) (Note that some of these exact version numbers may not be available on your platform: you may have to tweak them for your own use).
+To install the requirements using [conda](http://conda.pydata.org), run the following at the command-line:
 
 ```
 $ conda install --file requirements.txt
